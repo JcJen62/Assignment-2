@@ -48,7 +48,16 @@ nav {
     a:hover {background-color: #444;}// end of a
 }
 
-div#mainWrapper {background-color: #d8d3ce;}
+// main
+div#mainWrapper {
+    background-color: #d8d3ce;
+    figure.hero {
+        width: 100%; 
+        margin: 0 auto;
+    }
+    figure.hero img {width: 100%;}
+}
+
 main{
     background-color: rgb(255, 255, 255);
     display: block; 
@@ -56,12 +65,10 @@ main{
     h1 {
         color: $primaryColor;
         font-weight: $heavyWeight;
+        margin-top: 0;
+        padding-top: 1rem;
     }// end of h1
-    figure.hero {
-        width: 100%; 
-        margin: 0;
-    }
-    figure.hero img {width: 100%;}
+    
     figure img {width: 100%;}
     figure{
         margin: 0;

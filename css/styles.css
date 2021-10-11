@@ -448,18 +448,20 @@ nav a:hover {
 
 div#mainWrapper {
   background-color: #d8d3ce; }
+  div#mainWrapper figure.hero {
+    width: 100%;
+    margin: 0 auto; }
+  div#mainWrapper figure.hero img {
+    width: 100%; }
 
 main {
   background-color: white;
   display: block; }
   main h1 {
     color: #685d52;
-    font-weight: 700; }
-  main figure.hero {
-    width: 100%;
-    margin: 0; }
-  main figure.hero img {
-    width: 100%; }
+    font-weight: 700;
+    margin-top: 0;
+    padding-top: 1rem; }
   main figure img {
     width: 100%; }
   main figure {
@@ -512,6 +514,7 @@ footer {
   header,
   nav,
   main,
+  .hero,
   footer {
     max-width: 1200px;
     margin: auto; }
